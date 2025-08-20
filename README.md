@@ -23,13 +23,6 @@ Requests (integração com WhatsApp API)
 
 Gunicorn (servidor para deploy)
 
-📂 Estrutura do Projeto
-whatsapp-bot/
-│── bot.py              # Código principal do bot
-│── requirements.txt    # Dependências do projeto
-│── Procfile            # Configuração para deploy no Render
-│── README.md           # Documentação
-
 ⚙️ Como rodar localmente
 
 Clone este repositório:
@@ -82,14 +75,6 @@ Cliente manda: oi
 
 Cliente manda: preço
 → Bot responde: Nossos preços começam em R$100
-
-📌 Próximos Passos
-
- Adicionar banco de dados para salvar conversas
-
- Criar menus interativos (botões, listas)
-
- Integrar com Google Sheets / CRM
 
 👨‍💻 Autor
 
