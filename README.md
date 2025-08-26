@@ -23,50 +23,12 @@ Requests (integração com WhatsApp API)
 
 Gunicorn (servidor para deploy)
 
-⚙️ Como rodar localmente
-
 Clone este repositório:
 
 git clone https://github.com/seu-usuario/whatsapp-bot.git
 cd whatsapp-bot
 
-
-Crie um ambiente virtual e instale dependências:
-
-python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
-pip install -r requirements.txt
-
-
-Configure variáveis de ambiente:
-
-export WHATSAPP_TOKEN="seu_token_meta"
-export PHONE_NUMBER_ID="seu_id_telefone"
-
-
-Execute o bot:
-
 python bot.py
-
-
-O bot rodará em http://localhost:5000.
-
-🌍 Deploy no Render
-
-Suba o projeto no GitHub.
-
-Crie um Web Service no Render
-.
-
-Configure as variáveis de ambiente:
-
-WHATSAPP_TOKEN
-
-PHONE_NUMBER_ID
-
-O Render fornecerá uma URL pública, que você deve configurar como Webhook no Meta Developers
-.
 
 💡 Exemplos de uso
 
